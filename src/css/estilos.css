@@ -1,0 +1,26 @@
+.container {
+  text-align: center;
+}
+
+.gato-container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 306px;
+  margin: 50px auto;
+}
+
+.gato-celda {
+  width: 100px;
+  height: 100px;
+  box-shadow: 0 0 0 1px #33861a;
+  border: 1px solid #33861a;
+  cursor: pointer;
+  line-height: 100px;
+  font-size: 60px;
+}
+
+.gato-restablecer {
+  border-radius: 15px;
+  cursor: pointer;
+
+}
