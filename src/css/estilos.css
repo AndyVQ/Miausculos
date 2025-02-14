@@ -1,6 +1,6 @@
 .container {
   text-align: center;
-  font-family: 'Arial', sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 .gato-container {
@@ -11,7 +11,7 @@
   margin: 50px auto;
 }
 
-.gatos{
+.gatos {
   width: 100px;
   height: 100px;
   background-color: #f9f9f9;
@@ -41,4 +41,20 @@
 
 h1 {
   color: #2d5720;
+}
+.msjGanador {
+  animation: msjGanadorAnim 2s infinite;
+  display: none;
+}
+@keyframes msjGanadorAnim {
+  0% {
+    transform: translateY(20px);
+    
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(20px);
+  }
 }
