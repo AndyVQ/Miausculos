@@ -1,3 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
 .container {
   text-align: center;
   font-family: "Arial", sans-serif;
@@ -40,21 +47,36 @@
 }
 
 h1 {
-  color: #2d5720;
+  color: #5d934c;
 }
 .msjGanador {
   animation: msjGanadorAnim 2s infinite;
   display: none;
+  margin-top: -3%;
 }
 @keyframes msjGanadorAnim {
   0% {
-    transform: translateY(20px);
-    
+    transform: translateY(0px);
   }
   50% {
-    transform: translateY(-20px);
+    transform: translateY(-8px);
   }
   100% {
-    transform: translateY(20px);
+    transform: translateY(0px);
   }
 }
+
+.marcador {
+  background-color: #33861a;
+ color: #f9f9f9;
+ padding: 10px 15px;
+ border: 30px;
+ border-radius: 30px;
+ display: inline-block;
+ font-size: 14px;
+ font-weight: bold;
+ font-family: "Arial", sans-serif;
+ position: relative;
+ top: 13vh;
+}
+
